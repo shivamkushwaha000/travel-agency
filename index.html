@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dream Travels Agency</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #fcb69f;
+    }
+
+    section {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #2c3e50;
+    }
+
+    .packages {
+      background: #3498db;
+      color: #fff;
+      border-radius: 10px;
+      padding: 30px;
+      margin-bottom: 20px;
+    }
+
+    .booking {
+      background: #e74c3c;
+      color: #fff;
+      border-radius: 10px;
+      padding: 30px;
+      margin-bottom: 20px;
+    }
+
+    .tips {
+      background: #2ecc71;
+      color: #fff;
+      border-radius: 10px;
+      padding: 30px;
+      margin-bottom: 20px;
+    }
+
+    .gallery {
+      background: #f1c40f;
+      border-radius: 10px;
+      padding: 30px;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .gallery-grid img:hover {
+      transform: scale(1.05);
+    }
+
+    button {
+      background: #fff;
+      color: #2c3e50;
+      border: none;
+      padding: 12px 25px;
+      margin-top: 15px;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      background: #2c3e50;
+      color: #fff;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dream Travels Agency</h1>
+    <nav>
+      <a href="#packages">Tour Packages</a>
+      <a href="#booking">Booking</a>
+      <a href="#tips">Travel Tips</a>
+      <a href="#gallery">Gallery</a>
+    </nav>
+  </header>
+
+  <section id="packages" class="packages">
+    <h2>Our Tour Packages</h2>
+    <p>🌍 Explore Europe – 10 Days</p>
+    <p>🏝️ Maldives Getaway – 7 Days</p>
+    <p>⛰️ Himalayan Adventure – 5 Days</p>
+    <button>View All Packages</button>
+  </section>
+
+  <section id="booking" class="booking">
+    <h2>Booking Options</h2>
+    <p>Book your dream vacation easily with our online booking system.</p>
+    <button>Book Now</button>
+  </section>
+
+  <section id="tips" class="tips">
+    <h2>Travel Tips</h2>
+    <p>✔️ Pack light and smart</p>
+    <p>✔️ Keep digital copies of documents</p>
+    <p>✔️ Learn basic local phrases</p>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <h2>Gallery of Destinations</h2>
+    <div class="gallery-grid">
+      <img src="https://picsum.photos/300/200?travel1" alt="Destination 1">
+      <img src="https://picsum.photos/300/200?travel2" alt="Destination 2">
+      <img src="https://picsum.photos/300/200?travel3" alt="Destination 3">
+      <img src="https://picsum.photos/300/200?travel4" alt="Destination 4">
+      <img src="https://picsum.photos/300/200?travel5" alt="Destination 5">
+      <img src="https://picsum.photos/300/200?travel6" alt="Destination 6">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dream Travels Agency | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
